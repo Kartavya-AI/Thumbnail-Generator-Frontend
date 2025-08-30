@@ -263,9 +263,10 @@ export default function CreatePage() {
                                                             "/placeholder.svg"
                                                         }
                                                         alt="Generated thumbnail preview"
-                                                        className="w-full h-auto rounded-md ring-1 ring-zinc-200"
-                                                        width={480}
-                                                        height={270}
+                                                        className=" w-full rounded-md ring-1 ring-zinc-200"
+                                                        width={10}
+                                                        height={10}
+                                                        unoptimized
                                                     />
                                                 ) : (
                                                     <div className="text-sm text-zinc-500">

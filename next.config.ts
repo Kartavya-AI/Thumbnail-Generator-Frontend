@@ -9,7 +9,7 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
-    domains: ["v3.fal.media"],
+    domains: ["v3.fal.media", "example.com", "cdn.pixabay.com"],
   },
 };
 
